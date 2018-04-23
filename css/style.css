@@ -1,0 +1,81 @@
+header{
+    background-image: url(../img/header.png);
+    height:auto;
+    background-size: cover;
+}
+.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+.company_name_top{
+    font-size: 13px;
+    font-weight: 600;
+}
+.top_menu{
+    padding: 10px 30px;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    float: left;
+    padding: 20px 30px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.menu li.home{
+padding-left: 120px;
+    font-weight: 800;
+}
+.user_name{
+    background-image: url(../img/user_mane.png);
+    width: auto;
+    background-size: cover;
+    height: 53px;
+    padding: 18px 20px!important;
+    color: #fff;
+    font-weight: 400!important;
+    font-size: 13px!important;
+}
+.user_name span img{
+    height: 20px;
+    margin-left: 20px;
+}
+.search span img{
+    width: 50px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.pl-30{
+    padding-left: 45px!important;
+}
+.comp_name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.active_project{
+    color:gray;
+    font-size: 25px;
+    font-weight: 100;
+    
+}
+.container_home{
+    background-image: url(../img/container.png);
+    min-height: 1100px;
+    background-size: cover;
+    padding: 0 45px!important;
+}
+.all_projects{
+    font-size: 25px;
+    font-weight: 600;
+    margin:150px 0 0 0px;
+}
+.prodject{
+    height: 350px;
+    border:1px solid #fff;
+    padding-left: 0px!important;
+    padding-right: 0!important;
+    margin: 0 0px;
+    background-color: #fff;
+}
