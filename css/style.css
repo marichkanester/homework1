@@ -213,6 +213,25 @@ ul.text-white li:hover{
 ul.text-white li{
     margin: 20px 0;
 }
+.add{
+    border-radius: 20px;
+    border-color: #7686ff;
+    color:#7686ff;
+    max-width: 190px;
+    max-height: 50px;
+    border:1px solid;
+    padding: 10px 10px 5px 10px;
+    margin: 70px 20px 0 20px;
+}
+.add:hover{
+    color:#fff;
+    border-color: #7686ff;
+    background-color: #7686ff;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.5);
+}
+span.h3{
+    margin: 0!important;
+}
 ul.text-white{
     list-style: none;
 }
@@ -222,4 +241,83 @@ ul.text-white{
 }
 .thumbnail, .thumbnail:hover{
     border:0px!important;
+}
+.line img{
+    height: 2px;
+    width: 95%;
+}
+.heart img{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+}
+input.add , button.add{
+    border-color: #00f9cd;
+    background-color: #FFF;
+    color:#00f9cd;
+}
+button.add{
+    width: 130px;
+    padding-bottom: 10px;
+}
+input.add:hover , button.add:hover{
+    background-color:#00f9cd ;
+    color:#fff;
+    border-color: #00f9cd;
+}
+@media only screen and (max-width: 1500px) {
+    .container_home{
+        min-height: 1700px;
+    }
+    .image_header img{
+        max-height: 400px;
+    }
+    .container{
+        min-width: 991px;
+    }
+    .prodject{
+        margin: 20px 40px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    
+    .container{
+        min-width: 768px;
+    }
+    .image_header img{
+        max-height: 250px;
+    }
+    
+    
+    
+    
+    
+}
+@media only screen and (max-width: 768px) {
+    
+      .container{
+        min-width: 480px;
+    }
+    .image_header img{
+        display: none;
+    }
+     .container_home{
+        min-height: 2200px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+     .container{
+        min-width: 320px;
+     }
+     .container_home{
+        padding: 0 50px!important;
+    }
+    .prodject{
+        margin: 20px 0;
+    }
+    
+    
 }
