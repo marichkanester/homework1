@@ -10,6 +10,7 @@ header{
 .company_name_top{
     font-size: 13px;
     font-weight: 600;
+    margin-top: 20px;
 }
 .top_menu{
     padding: 10px 30px;
@@ -17,9 +18,10 @@ header{
 .menu{
     list-style: none;
     display: flex;
+    justify-content: space-around;
 }
 .menu li{
-    justify-content: space-between;
+    
     float: left;
     padding: 20px 0px;
     font-size: 11px;
@@ -61,6 +63,11 @@ header{
     font-weight: 100;
     
 }
+.image_header img{
+   max-height: 620px;
+    margin-top: 102px;
+    margin-left: 144px;
+}
 .container_home{
     background-image: url(../img/container.png);
     min-height: 1100px;
@@ -79,15 +86,10 @@ header{
     padding-right: 0!important;
     margin: 0 0px;
     max-width: 330px;
-    margin: 20px 50px;
+    margin: 20px 80px;
     background-color: #fff;
 }
-.prodject1{
-    margin-left: 0px!important;
-}
-.prodject2{
-    margin-right: 0px!important;
-}
+
 .prodject img{
     height: 150px;
     width: 100%
@@ -197,8 +199,10 @@ header{
     min-width: 1170px;
 }
 footer{
-    background-color:purple;
-    min-height: 260px;
+    background-image: url(../img/Rectangle9.png);
+    background-size: cover;
+    min-height: 410px;
+    padding-top: 150px;
 }
 .text-white{
     color:#fff;
