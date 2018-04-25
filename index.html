@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="/node_modules/jquery/dist/jquery.js"></script>
-
+<script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-ui.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -167,12 +167,11 @@
             <h2 class="hidden-sm hidden-xs"> <b>Партнери</b></h2>
         </div>
         <div class='row'>
-            <div class='col-md-12 hidden-sm hidden-xs'>
-                <div class="carousel slide media-carousel" id="media">
-                    <div class="carousel-inner">
-                        <div class="item  active">
-                            <div class="row">
-                                <div class="col-md-2">
+            <div class="slideshow-container">
+
+<div class="mySlides fade">
+
+ <div class="col-md-2">
                                 </div>
                                 <div class="col-md-1">
                                     <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
@@ -201,38 +200,87 @@
                                 <div class="col-md-2">
 
                                 </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  <div class="text">Caption Text</div>
+</div>
 
-                </div>
-            </div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <div class="col-md-2">
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-2">
+
+                                </div>
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+<div class="col-md-2">
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="thumbnail" href="#"><img alt="" src="img/vv.png"></a>
+                                </div>
+                                <div class="col-md-2">
+
+                                </div>  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
         </div>
         <h2 class="text-center"> Підпишись на наші новини</h2>
         <div class="col-md-offset-4 col-md-6 col-sm-offset-3 col-sm-7">
@@ -274,9 +322,39 @@
         </div>
 
     </footer>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="js/custom.js" type="text/javascript"></script>
+    
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script src="js/custom.js" type="text/javascript"></script>
     <script>
+   
     </script>
 
 </body>
