@@ -1,3 +1,6 @@
+body{
+    cursor: pointer;
+}
 header{
     background-image: url(../img/header.png);
     height:auto;
@@ -27,7 +30,7 @@ header{
     font-size: 11px;
     font-weight: 600;
 }
-.menu li.home{
+.menu li:hover{
     font-weight: 800;
 }
 .user_name{
@@ -220,7 +223,7 @@ ul.text-white li{
     max-width: 190px;
     max-height: 50px;
     border:1px solid;
-    padding: 10px 10px 5px 10px;
+    padding: 10px 10px 10px 10px;
     margin: 70px 20px 0 20px;
 }
 .add:hover{
@@ -229,8 +232,11 @@ ul.text-white li{
     background-color: #7686ff;
     box-shadow: 0 5px 20px 0 rgba(0,0,0,0.5);
 }
+.color_p{
+    color:#7686ff!important;
+}
 span.h3{
-    margin: 0!important;
+    margin: 0 0 5px 0!important;
 }
 ul.text-white{
     list-style: none;
@@ -529,4 +535,16 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.sircle{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border:1px solid #fff;
+}
+.sircle .fab{
+    margin: 13px;
+    font-size: 18px;
 }
